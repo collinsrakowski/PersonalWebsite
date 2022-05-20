@@ -1,0 +1,81 @@
+*{  /* Resets all margin and padding to zero, I get full control overall spacing. sucks but makes most sense i feel */
+    margin:0;
+    padding:0;
+}
+
+.generalC{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container1{
+    width: 100%;
+    background-image: url("https://www.kimley-horn.com/wp-content/uploads/2021/01/NCR-Beltway.jpg");
+    height: 300px;
+    background-position: 0px 15%;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 85px;
+    padding-top: 15%;
+}
+.container2{
+    border: 1px solid rgb(150, 154, 160);
+    padding: 18px;
+    margin: 20px 5%;
+}
+
+.containerCenter{
+    text-align: center;
+    padding-bottom: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.containerFloat{
+    float:left;
+    width:50%;
+    margin: 20px;
+    padding: 18px;
+}
+
+ul.spaceList{
+    text-align: center;
+    list-style: none;
+    font-size: 50px;
+}
+
+ul.spaceList li{
+    margin: 10px 0;    
+}
+
+.imageContCenter{
+    text-align: center;
+}
+
+img.rounded-corners{
+    border-radius: 30px;
+    width: 20%;
+}
+
+.contacts{
+    background-color: white;
+    color:black;
+    font-size: 25px;
+    padding: 10px 0px;
+}
+
+ul.contacts li{
+    margin: 5%;
+}
+
+.ftclass{
+    background-color: rgb(58, 55, 55);
+    text-align: center;
+    padding: 100px;
+}
+
+.h4{
+    font-size:20px;
+}
